@@ -11,8 +11,8 @@ const Index = () => {
       </Flex>
       <Container centerContent maxW="container.md" height="80vh" display="flex" flexDirection="column" justifyContent="center" alignItems="center">
         <VStack spacing={4}>
-          <Heading as="h1" size="2xl">Hello World</Heading>
-          <Text fontSize="lg">Welcome to your new React application!</Text>
+          <Heading as="h1" size="2xl" color="teal.500">Hello World</Heading>
+          <Text fontSize="lg" color="gray.600">Welcome to your new React application!</Text>
         </VStack>
       </Container>
     </Box>
